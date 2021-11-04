@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+    font-family: 'Whitney-Semibold', sans-serif;
+                                                
+}
+
+header{
+    height: 80px;
+    width: 100vw;
+    background-color: blue;
+    line-height: 80px;
+}
+
+.intestazione{
+    width: 90%;
+    margin: 0 auto;
+}
+
+img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.accedi{
+    float: right;
+    display: inline-block;
+}
+
+ul{
+    display: inline-block;
+    margin: 0 150px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    color: white;
+    padding: 0 20px;
+}
+
+.paragrafo.primo{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    position: relative;
+}
+.testo.primo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+
+.primo h1{
+    font-size: 50px;
+    margin: 20px;
+}
+.primo p{
+    padding: 20px;
+}
+
+.pulsante{
+    text-decoration: none;
+}
+
+.pulsante:hover{
+    color: blue;
+}
+
+.download .secondo{
+    color: white;
+    border-radius: 20px;
+    padding: 15px 25px;
+    background-color: black;
+}
+
+.download .primo{
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px 25px;
+}
