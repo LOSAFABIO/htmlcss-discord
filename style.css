@@ -29,7 +29,6 @@ img{
 
 .accedi{
     float: right;
-    display: inline-block;
 }
 
 ul{
@@ -44,18 +43,26 @@ ul li{
 ul li a{
     color: white;
     padding: 0 20px;
+    text-decoration: none;
 }
 
-.paragrafo.primo{
+ul li a:hover{
+    text-decoration: underline;
+}
+
+.paragrafo{
     height: 100vh;
-    width: 100%;
+    position: relative;
+}
+.paragrafo.primo{
     background-image: url(img/jumbo.png);
     background-size: cover;
     position: relative;
+    background-position: center ;
 }
 .testo.primo{
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -68,6 +75,10 @@ ul li a{
 }
 .primo p{
     padding: 20px;
+}
+
+.uno{
+    padding-top: 10px;
 }
 
 .pulsante{
@@ -83,10 +94,69 @@ ul li a{
     border-radius: 20px;
     padding: 15px 25px;
     background-color: black;
+    font-size: 15px;
 }
 
 .download .primo{
     background-color: white;
     border-radius: 20px;
     padding: 15px 25px;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+i{
+    vertical-align: middle;
+margin-right: 10px;
+}
+
+.secondo .immagine{    
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.quarto .immagine{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.testo.secondo{
+    position: absolute;
+    top: 18%;
+    right: 15%;
+    width: 310px;
+}
+
+p{
+    margin-top: 25px;
+    line-height: 25px;
+}
+h1{
+    line-height: 45px;
+}
+
+.paragrafo.terzo{
+    background-color:rgb(236, 236, 236)
+}
+
+.terzo .immagine{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+.terzo .terzo{
+    position: absolute;
+    top: 18%;
+    left: 15%;
+    width: 310px;
+}
+
+.quarto .quarto{
+position: absolute;
+top: 18%;
+right: 15%;
+width: 310px;
 }
